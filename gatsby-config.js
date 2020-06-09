@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Personal Site`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Kyle LeNeau`,
+      summary: `engineering leader by day developer at heart`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A personal site to share my thoughts on engineering software.`,
+    siteUrl: `https://kyleleneau.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `kleneau`,
     },
   },
   plugins: [
@@ -53,15 +53,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-4755411-14`,
       },
     },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kyle LeNeau Blog`,
+        short_name: `KyleP`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
